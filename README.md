@@ -1,2 +1,2 @@
 # SQL
-Databases at Solent
+Notes from learning SQL at Solent
