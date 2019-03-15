@@ -26,7 +26,7 @@ WHERE f.id = 4
 ORDER BY c.name;
 
 /* 3.4 */
-SELECT f.title, COUNT(s.id), ROUND(AVG(s.cost_in_credits), 2), ROUND(STDDEV(s.cost_in_credits), 2)
+SELECT f.title, COUNT(s.id) "Number", ROUND(AVG(s.cost_in_credits), 2) "Average Cost", ROUND(STDDEV(s.cost_in_credits), 2) "Standard Deviation Cost"
 FROM Starship s
 JOIN Pilot p ON s.id = p.starship_id
 JOIN Character c ON c.id = p.character_id
