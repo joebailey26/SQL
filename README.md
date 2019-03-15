@@ -1,2 +1,2 @@
-# SQL
-Notes from learning SQL at Solent
+# SWD406 Introduction to Databases
+Notes from learning Databases at Solent
